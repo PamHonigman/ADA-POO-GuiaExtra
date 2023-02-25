@@ -96,8 +96,6 @@ public class Mascota {
         for (Mascota mascotaAux : listaMascotas) {
             if (mascotaAux.getEdad() >= 6) {
                 System.out.println("\n" + mascotaAux);
-            } else {
-                System.out.println("Ninguna mascota cumple cumple ese requisito");
             }
         }
     }
@@ -107,11 +105,8 @@ public class Mascota {
         for (Mascota mascotaAux : listaMascotas) {
             if (mascotaAux.getEdad() < 5){
                 System.out.println("\n" + mascotaAux);
-            } else {
-                System.out.println("Ninguna mascota cumple ese requisito");
             }
         }
     }
-
 }
 
